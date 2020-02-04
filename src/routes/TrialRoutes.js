@@ -5,7 +5,7 @@ module.exports = function(app) {
     .get(trialList.list)
     .post(trialList.create)
 
-  app.route('/trial/:trial')
+  app.route('/trial/:trialId')
     .get(trialList.read)
     .put(trialList.update)
     .delete(trialList.delete)

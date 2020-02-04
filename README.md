@@ -1,6 +1,6 @@
 # Rule of thumbs API
 
-Api for Go Doc
+Api for Rule of thumbs
 
 ### Getting started
 In order to use the Api you need to install some packages
@@ -20,7 +20,13 @@ enviroment manager, so you can easily download the proper version, these are pos
 
 For yarn use the usual way https://yarnpkg.com/en/docs/install
 
-### Contribute
+### Load initial data
+Add initial data for testing
+- Go to you mongo install directory and get inside the `/bin` directory
+- Once you get in run `mongoimport --jsonArray --db RuleOfThumbs --collection trials --file <ApiPath>/data.json`
+- Finally you get loaded the data you can start the api.
+
+### How to use
 
 `git clone git@github.com:seballos/rule-of-thumbs-api.git` <br>
 `yarn` <br>

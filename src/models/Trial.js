@@ -8,6 +8,7 @@ const TrialsSchema = new Schema({
   category: String,
   description: String,
   bgImage: String,
+  wikiLink: String,
   stats: {
     thumbsUp: Number,
     thumbsDown: Number,
